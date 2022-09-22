@@ -1,0 +1,238 @@
+/*Menu*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    padding: 20px;
+}
+
+header div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.encabezado {
+    width: 100%;
+    background-color: rgb(158, 245, 222);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 20px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    font-size: 20px;
+    padding: 19px 30px;
+}
+
+.item:hover {
+    background-color: #44E5BB;
+    border-bottom: solid rgb(46, 180, 174);
+}
+
+.listItems {
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    display: none;
+    top: 192%;
+    width: 140%;
+    background-color: rgb(158, 245, 222);
+}
+
+.listItems:hover>.slide {
+    display: block;
+}
+
+.listItems .slide li:hover>ul {
+    display: block;
+}
+
+.slide li {
+    position: relative;
+}
+
+.slide ul {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+}
+
+.slide li a {
+    color: black;
+    padding: 10px 20px;
+    display: block;
+}
+
+.slide li a:hover {
+    border-bottom: solid rgb(80, 172, 167);
+}
+
+#menuDes {
+    background-color: #44E5BB;
+    text-align: center;
+    padding: 20px;
+}
+
+#textoMenu {
+    background-color: peru;
+}
+
+#home {
+    background-color: peru;
+}
+
+#nosotros {
+    background-color: peru;
+}
+
+#contacto {
+    background-color: peru;
+}
+
+#botonCatalogo {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+/*Home*/
+
+.banner {
+    text-align: center;
+}
+
+.imagenes {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.producto {
+    width: 220px;
+    height: auto;
+    border: 3px block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.producto:hover {
+    border: 10px solid red;
+}
+
+#bannerImg {
+    width: 720px;
+    height: auto;
+}
+
+#img1 {
+    width: 220px;
+}
+
+#img2 {
+    width: 220px;
+}
+
+#img3 {
+    width: 220px;
+}
+
+
+/**Contacto**/
+
+.formContacto {
+    text-align: center;
+    background-color: bisque;
+    border: 5px solid;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+.formulario {
+    width: 500px;
+    height: 30px;
+}
+
+#area {
+    padding-bottom: 30px;
+}
+
+
+/*Nosotros*/
+
+.info {
+    width: 720px;
+    height: auto;
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons {
+    width: 720px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid;
+    background-color: bisque;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer ul {
+    list-style: none;
+    text-align: right;
+    padding-right: 10%;
+}
+
+footer li {
+    display: inline;
+}
+
+#foot {
+    padding-left: 30px;
+}
+
+
+/*body*/
+
+body {
+    background-color: aliceblue;
+}
